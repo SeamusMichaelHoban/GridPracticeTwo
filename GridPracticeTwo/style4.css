@@ -1,0 +1,66 @@
+﻿.container {
+    display: grid;
+   
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(4, 100px);
+    margin: 2rem auto;
+    grid-row-gap:10px;
+    max-width: 1000px;
+    width: 90%;
+}
+.cone {
+    grid-column: 1 / span 2;
+    background-color:lawngreen;
+}
+.ctwo {
+    grid-column: 5 / span 16;
+    background-color: lawngreen;
+}
+.cthree {
+    grid-column: 23 / span 2;
+    background-color: lawngreen;
+}
+.cfour {
+    grid-column: 1 / span 16;
+    background-color: lawngreen;
+}
+.cfive {
+    grid-column: 18 / span 2;
+    background-color: lawngreen;
+}
+.csix {
+    grid-column: 21 / span 4;
+    background-color: lawngreen;
+}
+.cseven {
+    grid-column: 1 / span 2;
+    background-color: lawngreen;
+}
+.ceight {
+    grid-column: 4 / span 4;
+    background-color: lawngreen;
+}
+.cnine {
+    grid-column: 9 / span 16;
+    background-color: lawngreen;
+}
+.cten {
+    grid-column: 1 / span 4;
+    background-color: lawngreen;
+}
+.celeven {
+    grid-column: 7 / span 2;
+    background-color: lawngreen;
+}
+.ctwelve {
+    grid-column: 11 / span 4;
+    background-color: lawngreen;
+}
+.cthirteen {
+    grid-column: 17 / span 2;
+    background-color: lawngreen;
+}
+.cfourteen {
+    grid-column: 21 / span 4;
+    background-color: lawngreen;
+}
